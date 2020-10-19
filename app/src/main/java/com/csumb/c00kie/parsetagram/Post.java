@@ -1,8 +1,5 @@
 package com.csumb.c00kie.parsetagram;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
