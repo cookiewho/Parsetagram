@@ -27,12 +27,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='parsetagram.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='parestagram.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
 
-Had some issues with testing the app on the emulator after making the mistake of switching the camera to selfie mode, causing the camera app to continue crashing.
+Had some issues with testing the app on the emulator after making the mistake of switching the camera to selfie mode, causing the camera app to continue crashing.Also had issues with getting a cutom toolbar to work, and decided i'd need to do more researce before trying again.
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
