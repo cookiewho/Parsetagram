@@ -1,6 +1,7 @@
 package com.csumb.c00kie.parsetagram.fragments;
 
 import android.util.Log;
+import android.widget.Button;
 
 import com.csumb.c00kie.parsetagram.Post;
 import com.parse.FindCallback;
@@ -11,6 +12,7 @@ import com.parse.ParseUser;
 import java.util.List;
 
 public class ProfileFragment extends PostsFragment{
+    private Button btnLogout;
     @Override
     protected void queryPosts() {
         ParseQuery<Post> query = ParseQuery.getQuery(Post.class);
@@ -32,4 +34,14 @@ public class ProfileFragment extends PostsFragment{
             }
         });
     }
+//    btnLogout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                ParseUser currentUser = ParseUser.getCurrentUser();
+//                currentUser.logOut();
+//                Intent i = new Intent(MainActivity.this, LoginActivity.class);
+//                startActivity(i);
+//                finish();
+//            }
+//        });
 }

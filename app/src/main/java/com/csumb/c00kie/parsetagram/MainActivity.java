@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
     public static final String TAG = "MainActivity";
 
     private BottomNavigationView bottomNavigationView;
-    private Button btnLogout;
 
 
     @Override
@@ -81,16 +80,7 @@ public class MainActivity extends AppCompatActivity {
         });
         // Set default selection
         bottomNavigationView.setSelectedItemId(R.id.action_home);
-//        btnLogout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                ParseUser currentUser = ParseUser.getCurrentUser();
-//                currentUser.logOut();
-//                Intent i = new Intent(MainActivity.this, LoginActivity.class);
-//                startActivity(i);
-//                finish();
-//            }
-//        });
+//
     }
 
 }
