@@ -2,14 +2,14 @@
 
 **Parsetagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can sign up to create a new account using Parse authentication.
-- [ ] User can log in and log out of his or her account.
+- [x] User can sign up to create a new account using Parse authentication.
+- [x] User can log in and log out of his or her account.
 - [x] The current signed in user is persisted across app restarts.
 - [x] User can take a photo, add a caption, and post it to "Instagram".
 
@@ -27,12 +27,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='parestagram.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
 
-Had some issues with testing the app on the emulator after making the mistake of switching the camera to selfie mode, causing the camera app to continue crashing.
+Had some issues with testing the app on the emulator after making the mistake of switching the camera to selfie mode, causing the camera app to continue crashing.Also had issues with getting a cutom toolbar to work, and decided i'd need to do more researce before trying again.
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
