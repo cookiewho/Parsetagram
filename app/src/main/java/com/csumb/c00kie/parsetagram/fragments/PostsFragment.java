@@ -78,7 +78,7 @@ public class PostsFragment extends Fragment {
                     Log.e(TAG, "Issue getting posts", e);
                 }
                 for (Post post: posts){
-                    Log.i(TAG, "Post: " + post.getDescription() +", USERNAME: " + post.getUser().getUsername());
+                    Log.i(TAG, "Post: " + post.getDescription() +", USERNAME: " + post.getUser().getUsername() + ", Created: " + post.getCreated());
                 }
                 allPosts.clear();
                 allPosts.addAll(posts);
