@@ -2,7 +2,7 @@
 
 **Parsetagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **7** hours spent in total
+Time spent: **9** hours spent in total
 
 ## Part 2
 ## User Stories
