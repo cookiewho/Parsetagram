@@ -1,6 +1,10 @@
 package com.csumb.c00kie.parsetagram;
 
 import android.content.Context;
+import android.graphics.Typeface;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -71,8 +75,14 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
         }
 
         public void bind(Post post) {
-            tvDescription.setText(post.getDescription());
-            tvUsername.setText(post.getUser().getUsername());
+
+            String desc = post.getDescription();
+            String username = post.getUser().getUsername();
+            tvUsername.setText(username);
+            SpannableString properDesc = new SpannableString(username +"  "+ desc);
+            properDesc.setSpan(new StyleSpan(Typeface.BOLD), 0, username.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            tvDescription.setText(properDesc);
+
             ParseFile image = post.getImage();
             if(image != null){
                 Glide.with(context).load(image.getUrl()).into(ivImage);

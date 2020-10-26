@@ -11,8 +11,9 @@
         android:id="@+id/tvUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold"
+        android:textColor="#000000"
         tools:text="c0w0kie" />
 
     <TextView
@@ -21,6 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/ivImage"
         android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
         android:text="17 Oct 2020 at 21:18:17 UTC" />
 
     <ImageView
@@ -38,10 +41,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivImage"
-        android:fontFamily="sans-serif"
-        android:ems="12"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textSize="15sp"
         tools:text="Pink Yoshi is the cutest darn thing" />
 
 
