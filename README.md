@@ -21,9 +21,9 @@ The following **optional** features are implemented:
 - [ ] Show the username and creation time for each post.
 - [ ] User can tap a post to view post details, including timestamp and caption.
 - [ ] User Profiles
-      - [ ] Allow the logged in user to add a profile photo
-      - [ ] Display the profile photo with each post
-      - [ ] Tapping on a post's username or profile photo goes to that user's profile page and shows a grid view of the user's posts 
+  - [ ] Allow the logged in user to add a profile photo
+  - [ ] Display the profile photo with each post
+  - [ ] Tapping on a post's username or profile photo goes to that user's profile page and shows a grid view of the user's posts 
 - [ ] User can comment on a post and see all comments for each post in the post details screen.
 - [ ] User can like a post and see number of likes for each post in the post details screen.
 
@@ -35,12 +35,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='parestagram2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had difficulties getting the created time, and felt like it would be poor practice to have two created time columns that reffered to the same values. I also had issues getting the toolbar to work with the app as i did last week and was unable to get it to work in time.
 
 ## Part 1
 ## User Stories
